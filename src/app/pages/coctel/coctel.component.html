@@ -1,0 +1,46 @@
+<!-- NAVBAR-->
+<app-navbar></app-navbar>
+<!-- .NAVBAR-->
+  <div class="home-center" style="background-image: url('{{cocktail.strDrinkThumb}}');">
+    <div class="home-desc-center">
+      <div class="container">
+        <div class="justify-content-center row">
+          <div class="col-lg-7">
+            <div class="mt-40 text-center home-5-content">
+              <div class="home-icon mb-4">
+                <i class="mdi mdi-pinwheel mdi-spin text-white h1"></i>
+              </div>
+              <h1 class="font-weight-normal home-5-title mb-0">
+                {{ cocktail.strDrink }}
+              </h1>
+              <h2 class="font-weight-normal home-5-title mb-0">
+                {{cocktail.strCategory}}
+              </h2>
+              <p class="mt-4 f-15 mb-0">
+                {{ cocktail.strIngredient1 }}
+              </p>
+              <p class="mt-4 f-15 mb-0">
+                {{ cocktail.strIngredient2 }}
+              </p>
+              <p class="mt-4 f-15 mb-0">
+                {{ cocktail.strIngredient3 }}
+              </p>
+              <p class="mt-4 f-15 mb-0">
+                {{ cocktail.strIngredient4 }}
+              </p>
+              <p class="mt-4 f-15 mb-0">
+                {{ cocktail.strIngredient5 }}
+              </p>
+              <div class="mt-5">
+                <input
+                  class="btn btn-default"
+                  type="button"
+                  value="Get started"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
