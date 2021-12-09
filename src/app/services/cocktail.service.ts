@@ -19,9 +19,9 @@ export class CocktailService {
     return this.http.get(this.API_URL+url)
     .pipe(
       map((res:any)=>res.drinks)
-      )
+      ) 
   }
-
+ 
   getCocktail(cocktailId:any){
     const url='lookup.php?i='
       return this.http.get(this.API_URL+url+cocktailId).pipe(

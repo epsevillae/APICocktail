@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.getCocktails();
     
-  }
+  } 
 
   getCocktails(){
     this._cocktail.getCocktails().subscribe((res:any)=>{

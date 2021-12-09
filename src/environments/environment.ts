@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false, 
-  APY_KEY:'https://www.thecocktaildb.com/api/json/v1/1/'
+  APY_KEY:'https://www.thecocktaildb.com/api/json/v1/1/',
+  API_PLANES:'https://www.cloud.wispro.co/api/v1/plans'
 };
 
 /*
